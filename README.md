@@ -1,3 +1,84 @@
+Avion - E-Commerce Platform
+
+Overview
+
+Avion is a modern e-commerce platform specializing in furniture and unique decor items. Built using Next.js, Tailwind CSS, and shadcn/ui, the platform ensures a seamless shopping experience with a fully responsive design. The backend is managed using Sanity CMS, with additional integrations for product data APIs, third-party services, shipment tracking, and payment processing.
+
+Project Structure
+
+The project follows a structured folder hierarchy for better organization and scalability:
+
+ShopSphere/
+│-- src/
+│   │-- components/  # Reusable UI components
+│   │-- pages/       # Next.js pages
+│   │-- styles/      # Tailwind CSS styles
+│   │-- utils/       # Utility functions
+│-- public/          # Static assets
+│-- tests/           # Test cases and performance reports
+│-- .env.example     # Sample environment variables
+│-- README.md        # Project documentation
+
+Deployment Steps
+
+To deploy the project in a staging environment, follow these steps:
+
+Clone the Repository
+
+git clone https://github.com/your-username/ShopSphere.git
+cd ShopSphere
+
+Install Dependencies
+
+npm install
+
+Configure Environment Variables
+
+Copy .env.example to .env.local and update necessary API keys.
+
+Run the Project Locally
+
+npm run dev
+
+Deploy to Staging (Vercel)
+
+vercel --prod
+
+Environment Variables
+
+Ensure the following variables are correctly set in .env.local:
+
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=production
+NEXT_PUBLIC_API_Token
+NEXT_PUBLIC_PAYMENT_GATEWAY_KEY=your_payment_key
+
+Testing & Performance Reports
+
+The project undergoes rigorous testing before deployment. The following tests have been conducted:
+
+✅ Unit Tests: Ensuring individual functions work correctly.
+
+✅ Integration Tests: Validating component interactions.
+
+✅ Performance Tests: Checking page load speed and optimization.
+
+✅ Security Tests: Ensuring API keys and sensitive data are secure.
+
+Reports are stored in the tests/ folder for future reference.
+
+GitHub Repository
+
+All project files and documentation are organized and maintained in a GitHub repository:
+📌 Repository URL: GitHub -
+
+Conclusion
+
+This README serves as a complete guide to the project setup, deployment, and testing process. With a fully deployed staging environment and structured documentation, ShopSphere is now ready for the next phase of development and launch.
+
+🔹 Developed by: Rabab
+🔹 Tech Stack: Next.js, Tailwind CSS, shadcn/ui, Sanity CMS
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
