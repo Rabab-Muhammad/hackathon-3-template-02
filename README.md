@@ -8,24 +8,44 @@ Project Structure
 
 The project follows a structured folder hierarchy for better organization and scalability:
 
-ShopSphere/
+Avion/
+
 │-- src/
-│   │-- components/  # Reusable UI components
-│   │-- pages/       # Next.js pages
-│   │-- styles/      # Tailwind CSS styles
-│   │-- utils/       # Utility functions
-│-- public/          # Static assets
-│-- tests/           # Test cases and performance reports
-│-- .env.example     # Sample environment variables
-│-- README.md        # Project documentation
+
+│   │-- components/ 
+ # Reusable UI components
+
+│   │-- pages/     
+  # Next.js pages
+
+│   │-- styles/   
+   # Tailwind CSS styles
+
+│   │-- utils/
+       # Utility functions
+
+│-- public/    
+      # Static assets
+
+│-- tests/   
+        # Test cases and performance reports
+
+│-- .env.example 
+    # Sample environment variables
+
+│-- README.md
+        # Project documentation
+
 
 Deployment Steps
+
 
 To deploy the project in a staging environment, follow these steps:
 
 Clone the Repository
 
 git clone (https://github.com/Rabab-Muhammad/hackathon-3-template-02.git)
+
 cd hackathon-3-template-02
 
 Install Dependencies
@@ -49,9 +69,15 @@ Environment Variables
 Ensure the following variables are correctly set in .env.local:
 
 NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+
 NEXT_PUBLIC_SANITY_DATASET=production
+
+
+
 NEXT_PUBLIC_API_Token
+
 NEXT_PUBLIC_PAYMENT_GATEWAY_KEY=your_payment_key
+
 
 Testing & Performance Reports
 
@@ -70,6 +96,7 @@ Reports are stored in the tests/ folder for future reference.
 GitHub Repository
 
 All project files and documentation are organized and maintained in a GitHub repository:
+
 📌 Repository URL: GitHub -https://github.com/Rabab-Muhammad/hackathon-3-template-02.git
 
 Conclusion
