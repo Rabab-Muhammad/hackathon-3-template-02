@@ -25,8 +25,8 @@ To deploy the project in a staging environment, follow these steps:
 
 Clone the Repository
 
-git clone https://github.com/your-username/ShopSphere.git
-cd ShopSphere
+git clone (https://github.com/Rabab-Muhammad/hackathon-3-template-02.git)
+cd hackathon-3-template-02
 
 Install Dependencies
 
@@ -70,7 +70,7 @@ Reports are stored in the tests/ folder for future reference.
 GitHub Repository
 
 All project files and documentation are organized and maintained in a GitHub repository:
-📌 Repository URL: GitHub -
+📌 Repository URL: GitHub -https://github.com/Rabab-Muhammad/hackathon-3-template-02.git
 
 Conclusion
 
